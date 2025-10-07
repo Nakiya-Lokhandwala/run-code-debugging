@@ -1,0 +1,14 @@
+# Core libraries for data handling and embedding
+pandas
+numpy
+faiss-cpu
+sentence-transformers
+
+# Libraries related to web application and file operations
+streamlit
+lxml  # Used by BeautifulSoup in the cleaning step
+swifter # Used for cleaning step 
+python-dotenv # Required for loading GEMINI_API_KEY from .env file
+
+# Google GenAI library
+google-genai
